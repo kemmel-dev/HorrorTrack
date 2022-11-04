@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 919767955716920360}
   - component: {fileID: 3531969267223176593}
   m_Layer: 6
-  m_Name: mesh_paperbox
+  m_Name: Collectible
   m_TagString: Collectible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110,3 +110,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c82d724333e7ee8479b584639906e80e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onCollect:
+    m_PersistentCalls:
+      m_Calls: []

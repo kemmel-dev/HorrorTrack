@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
 
     public float interactionDistance;
     private Transform rayOrigin;
+    public bool collectedCollectible = false;
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +41,12 @@ public class Player : MonoBehaviour
             if (hit.collider.CompareTag("Collectible"))
             {
                 hit.collider.GetComponent<Collectible>().Collect();
+            }
+
+            if (hit.collider.CompareTag("Shredder") && collectedCollectible)
+            {
+                hit.collider.GetComponent<Shredder>().Shred();
+                collectedCollectible = false;
             }
         }
     }

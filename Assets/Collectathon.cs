@@ -7,10 +7,17 @@ public class Collectathon : MonoBehaviour
 {
     public List<Collectible> collectiblesInOrder;
     private Queue<Collectible> collectibles;
+    private Player player;
 
     private void Start()
     {
         PrepareCollectibles();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+    }
+
+    internal void ShowNextObject()
+    {
+        collectibles.Peek().gameObject.SetActive(true);
     }
 
     private void PrepareCollectibles()
@@ -44,15 +51,10 @@ public class Collectathon : MonoBehaviour
     {
         if (collectibles.Peek() == collectible)
         {
+            player.collectedCollectible = true;
             collectibles.Dequeue();
-            if (collectibles.Count > 0)
-            {
-                collectibles.Peek().gameObject.SetActive(true);
-            }
-            else
-            {
+            if (collectibles.Count == 0)
                 Finish();
-            }
         }
         else
         {
