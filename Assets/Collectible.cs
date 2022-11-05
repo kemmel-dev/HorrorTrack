@@ -6,21 +6,22 @@ using UnityEngine.Events;
 public class Collectible : MonoBehaviour
 {
 
-    private Collectathon collectathon;
     public UnityEvent onCollect;
- 
-    public void SetCollectathon(Collectathon collectathon)
+
+    private Player player;
+
+    private void Start()
     {
-        this.collectathon = collectathon;
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
     }
 
     public void Collect()
     {
-        collectathon.MarkAsCollected(this);
         if (onCollect != null)
         {
             onCollect.Invoke();
         }
+        player.collectedCollectible = true;
         Destroy(this.gameObject);
     }
 }

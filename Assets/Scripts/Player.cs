@@ -11,17 +11,13 @@ public class Player : MonoBehaviour
     public float interactionDistance;
     private Transform rayOrigin;
     public bool collectedCollectible = false;
+    private ProgressionManager progressionManager;
 
     // Start is called before the first frame update
     void Start()
     {
         rayOrigin = Camera.main.transform;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        progressionManager = GameObject.FindGameObjectWithTag("ProgressionManager").GetComponent<ProgressionManager>();
     }
 
     internal void AttemptInteract()
@@ -45,7 +41,7 @@ public class Player : MonoBehaviour
 
             if (hit.collider.CompareTag("Shredder") && collectedCollectible)
             {
-                hit.collider.GetComponent<Shredder>().Shred();
+                progressionManager.NextEvent();
                 collectedCollectible = false;
             }
         }

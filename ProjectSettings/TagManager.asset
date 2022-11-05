@@ -10,6 +10,7 @@ TagManager:
   - Collectible
   - Collectathon
   - Shredder
+  - ProgressionManager
   layers:
   - Default
   - TransparentFX

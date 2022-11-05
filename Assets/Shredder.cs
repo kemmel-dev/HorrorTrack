@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Shredder : MonoBehaviour
 {
@@ -8,22 +9,23 @@ public class Shredder : MonoBehaviour
     public Material highlightMaterial;
     public Material normalMaterial;
 
-    private Collectathon collectathon;
+    private ProgressionManager progressionManager;
+    public UnityEvent onShred;
+    private Renderer meshRenderer;
 
     private void Start()
     {
-        collectathon = GameObject.FindGameObjectWithTag("Collectathon").GetComponent<Collectathon>();
+        progressionManager = GameObject.FindGameObjectWithTag("ProgressionManager").GetComponent<ProgressionManager>();
+        meshRenderer = GetComponentInChildren<Renderer>();
     }
 
     public void Highlight(bool highlight)
     {
-        GetComponentInChildren<Renderer>().material = highlight ? highlightMaterial : normalMaterial;
+        meshRenderer.material = highlight ? highlightMaterial : normalMaterial;
     }
 
     public void Shred()
     {
-        Highlight(false);
         GetComponent<Animator>().SetTrigger("Shred");
-        collectathon.ShowNextObject();
     }
 }
