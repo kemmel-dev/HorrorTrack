@@ -26,20 +26,24 @@ public class Player : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(rayOrigin.position, rayOrigin.forward.normalized * interactionDistance, out hit, interactionDistance, LayerMask.GetMask("Interactable")))
         {
-            if (hit.collider.CompareTag("Door") || hit.collider.CompareTag("Drawer"))
+            if (hit.collider.CompareTag("Door"))
             {
-                Debug.Log(hit.collider.gameObject.name);
-                Animator animator = hit.collider.gameObject.GetComponent<Animator>();
-                Debug.Log(animator);
-                animator.SetBool("Open", ! animator.GetBool("Open"));
+                if (! hit.collider.GetComponentInParent<Door>().locked)
+                {
+                    Animator animator = hit.collider.gameObject.GetComponentInParent<Animator>();
+                    animator.SetBool("Open", !animator.GetBool("Open"));
+                }
             }
-
-            if (hit.collider.CompareTag("Collectible"))
+            else if (hit.collider.CompareTag("Drawer"))
+            {
+                Animator animator = hit.collider.gameObject.GetComponent<Animator>();
+                animator.SetBool("Open", !animator.GetBool("Open"));
+            }
+            else if (hit.collider.CompareTag("Collectible"))
             {
                 hit.collider.GetComponent<Collectible>().Collect();
             }
-
-            if (hit.collider.CompareTag("Shredder") && collectedCollectible)
+            else if (hit.collider.CompareTag("Shredder") && collectedCollectible)
             {
                 progressionManager.NextEvent();
                 collectedCollectible = false;

@@ -4,10 +4,5 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-
-    bool open = false;
-
-    void Interact(bool open)
-    {
-    }
+    public bool locked = false;
 }

@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 4389347068828931926}
   m_Layer: 6
   m_Name: Shredder
-  m_TagString: Untagged
+  m_TagString: Shredder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -152,6 +152,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highlightMaterial: {fileID: 2100000, guid: 65874bacd96ce334cae23a6bf51c4b12, type: 2}
   normalMaterial: {fileID: 2100000, guid: c26aaa7c1e852d440aa647a4ddf99bf8, type: 2}
+  onShred:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &4389347068828931926
 BoxCollider:
   m_ObjectHideFlags: 0
