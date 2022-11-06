@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Tobii.Gaming;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class GazeTargetTimed : MonoBehaviour
 {
@@ -28,6 +29,12 @@ public class GazeTargetTimed : MonoBehaviour
         animator = model.GetComponent<Animator>();
     }
 
+    private IEnumerator OnSpotted()
+    {
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene(2);
+    }
+
 
     private void Update()
     {
@@ -47,6 +54,7 @@ public class GazeTargetTimed : MonoBehaviour
                 player.GetComponent<AudioSource>().PlayOneShot(soundEffect);
                 player.GetComponent<PlayerController>().enabled = false;
                 player.GetComponent<PlayerMotor>().enabled = false;
+                StartCoroutine(OnSpotted());
                 Destroy(this);
             }
         }

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Tobii.Gaming;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MovingStatue : MonoBehaviour
 {
@@ -17,6 +18,12 @@ public class MovingStatue : MonoBehaviour
         gazeAware = GetComponent<GazeAware>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         parent = transform.parent;
+    }
+
+    private IEnumerator OnSpotted()
+    {
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene(2);
     }
 
     private void FixedUpdate()
@@ -41,6 +48,7 @@ public class MovingStatue : MonoBehaviour
                 player.GetComponent<AudioSource>().PlayOneShot(soundEffect);
                 player.GetComponent<PlayerController>().enabled = false;
                 player.GetComponent<PlayerMotor>().enabled = false;
+                StartCoroutine(OnSpotted());
                 Destroy(this);
             }
             else
