@@ -11,6 +11,7 @@ TagManager:
   - Collectathon
   - Shredder
   - ProgressionManager
+  - Treasure
   layers:
   - Default
   - TransparentFX

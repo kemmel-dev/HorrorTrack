@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(PlayerController))]
 public class Player : MonoBehaviour
@@ -36,8 +36,12 @@ public class Player : MonoBehaviour
             }
             else if (hit.collider.CompareTag("Drawer"))
             {
-                Animator animator = hit.collider.gameObject.GetComponent<Animator>();
-                animator.SetBool("Open", !animator.GetBool("Open"));
+                Drawer drawer = hit.collider.GetComponent<Drawer>();
+                if (drawer != null)
+                {
+                    drawer.Open();
+                }
+
             }
             else if (hit.collider.CompareTag("Collectible"))
             {
@@ -47,6 +51,10 @@ public class Player : MonoBehaviour
             {
                 progressionManager.NextEvent();
                 collectedCollectible = false;
+            }
+            else if (hit.collider.CompareTag("Treasure"))
+            {
+                SceneManager.LoadScene(1);
             }
         }
     }
