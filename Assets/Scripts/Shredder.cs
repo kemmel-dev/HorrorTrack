@@ -13,6 +13,8 @@ public class Shredder : MonoBehaviour
     public UnityEvent onShred;
     private Renderer meshRenderer;
 
+    public AudioClip soundEffect;
+
     private void Start()
     {
         progressionManager = GameObject.FindGameObjectWithTag("ProgressionManager").GetComponent<ProgressionManager>();
@@ -27,5 +29,6 @@ public class Shredder : MonoBehaviour
     public void Shred()
     {
         GetComponent<Animator>().SetTrigger("Shred");
+        GetComponent<AudioSource>().PlayOneShot(soundEffect);
     }
 }
