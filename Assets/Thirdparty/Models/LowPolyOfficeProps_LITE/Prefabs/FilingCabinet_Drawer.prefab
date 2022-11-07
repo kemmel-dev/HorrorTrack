@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 726740366458041262}
   - component: {fileID: 4053568154891216542}
   - component: {fileID: 4369805310928476350}
+  - component: {fileID: 334635238231209898}
   m_Layer: 6
   m_Name: Drawer
   m_TagString: Drawer
@@ -150,3 +151,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &334635238231209898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3288451417996647254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62c55befe9cb783498a39f90b08d3052, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  holdsKey: 0
+  onKeyFind:
+    m_PersistentCalls:
+      m_Calls: []

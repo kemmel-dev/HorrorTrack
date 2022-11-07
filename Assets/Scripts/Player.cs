@@ -37,6 +37,7 @@ public class Player : MonoBehaviour
             else if (hit.collider.CompareTag("Drawer"))
             {
                 Drawer drawer = hit.collider.GetComponent<Drawer>();
+                Debug.Log(drawer);
                 if (drawer != null)
                 {
                     drawer.Open();
