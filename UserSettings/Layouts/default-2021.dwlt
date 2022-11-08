@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 350}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 300}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 0
-  controlID: 14686
+  controlID: 8223
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 14536
+  controlID: 8193
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,9 +167,9 @@ MonoBehaviour:
     height: 452
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &8
@@ -193,9 +193,9 @@ MonoBehaviour:
     height: 495
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &9
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 300}
   m_MaxSize: {x: 8096, y: 24288}
   vertical: 1
-  controlID: 14687
+  controlID: 8224
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -242,13 +242,13 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1007
-    height: 494
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
+    height: 446
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 16}
   m_Panes:
+  - {fileID: 16}
   - {fileID: 17}
-  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &11
@@ -261,23 +261,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: AnimationWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 494
+    y: 446
     width: 1007
-    height: 172
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
+    height: 347
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 14}
-  - {fileID: 19}
+  - {fileID: 18}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -294,14 +293,14 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 666
+    y: 793
     width: 1007
-    height: 281
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 20}
+    height: 154
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 20}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &13
@@ -325,105 +324,13 @@ MonoBehaviour:
     height: 947
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 21}
+  m_ActualView: {fileID: 20}
   m_Panes:
+  - {fileID: 20}
   - {fileID: 21}
-  - {fileID: 22}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &14
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 535
-    y: 567
-    width: 1005
-    height: 151
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_SerializedViewNames: []
-  m_SerializedViewValues: []
-  m_PlayModeViewName: GameView
-  m_ShowGizmos: 0
-  m_TargetDisplay: 0
-  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 2560, y: 1440}
-  m_TextureFilterMode: 0
-  m_TextureHideFlags: 61
-  m_RenderIMGUI: 1
-  m_EnterPlayModeBehavior: 1
-  m_UseMipMap: 0
-  m_VSyncEnabled: 0
-  m_Gizmos: 0
-  m_Stats: 0
-  m_SelectedSizes: 05000000000000000000000000000000000000000000000000000000000000000000000000000000
-  m_ZoomArea:
-    m_HRangeLocked: 0
-    m_VRangeLocked: 0
-    hZoomLockedByDefault: 0
-    vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -1280
-    m_HBaseRangeMax: 1280
-    m_VBaseRangeMin: -720
-    m_VBaseRangeMax: 720
-    m_HAllowExceedBaseRangeMin: 1
-    m_HAllowExceedBaseRangeMax: 1
-    m_VAllowExceedBaseRangeMin: 1
-    m_VAllowExceedBaseRangeMax: 1
-    m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
-    m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
-    m_EnableSliderZoomHorizontal: 0
-    m_EnableSliderZoomVertical: 0
-    m_UniformScale: 1
-    m_UpDirection: 1
-    m_DrawArea:
-      serializedVersion: 2
-      x: 0
-      y: 21
-      width: 1005
-      height: 130
-    m_Scale: {x: 0.090277776, y: 0.090277776}
-    m_Translation: {x: 502.5, y: 65}
-    m_MarginLeft: 0
-    m_MarginRight: 0
-    m_MarginTop: 0
-    m_MarginBottom: 0
-    m_LastShownAreaInsideMargins:
-      serializedVersion: 2
-      x: -5566.154
-      y: -720
-      width: 11132.308
-      height: 1440
-    m_MinimalGUI: 1
-  m_defaultScale: 0.090277776
-  m_LastWindowPixelSize: {x: 1005, y: 151}
-  m_ClearInEditMode: 1
-  m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 00000000000000000000
-  m_XRRenderMode: 0
-  m_RenderTexture: {fileID: 0}
---- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -453,10 +360,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 38160}
-      m_SelectedIDs: 14790000
-      m_LastClickedID: 30996
-      m_ExpandedIDs: 4672ffff5c72ffff7a72ffffa672ffffc672ffffca72ffffce72ffffd672ffffda72ffffde72ffffe272ffffe672ffffea72ffffee72fffff272fffffa72fffffe72ffff0273ffff0673ffff0e73ffff1273ffff1673ffff1e73ffff2273ffff2673ffff2a73ffff2e73ffff3273ffff3673ffff3a73ffff3e73ffff4273ffff4673ffff4e73ffff5273ffff5673ffff5a73ffff5e73ffff6273ffff6a73ffff6e73ffff7273ffff7673ffff7a73ffff7e73ffff8273ffff8673ffffb873ffffbc73ffffc073ffffc873ffffcc73ffffd073ffffd473ffffd873ffffdc73ffffe073ffffe473ffffec73fffff073fffff473fffff873ffff0074ffff0474ffff0874ffff1074ffff1474ffff1874ffff1c74ffff2074ffff2474ffff2874ffff2c74ffff3074ffff3474ffff3874ffff4074ffff4474ffff4874ffff4c74ffff5074ffff5474ffff5c74ffff6074ffff6474ffff6874ffff6c74ffff7074ffff7474ffff7874ffff9a74ffff0e75ffff3275ffff4e75ffffb475fffffc75ffff1276ffff3076ffff6076ffff7076ffff8076ffff9076ffff9a76ffffaa76ffffba76ffffca76ffffd476fffff276fffff476ffff0a77ffff2c77ffff3a77ffff4a77ffff5a77ffff6a77ffff7277ffff8277ffff9277ffffa277ffffaa77fffffc77ffff2078ffff3c78ffffa078ffffb078ffff1e79ffff3479ffff5279ffff8279ffff9279ffffa279ffffb279ffffbc79ffffda79ffffdc79ffff147affff187affff1c7affff207affff287affff2c7affff307affff347affff387affff3c7affff407affff447affff487affff507affff547affff587affff5c7affff607affff687affff6c7affff707affff747affff7c7affff807affff847affff887affff8c7affff907affff947affff987affff9c7affffa07affffa47affffa87affffb07affffb47affffb87affffbc7affffc07affffc47affffc87affffd07affffd47affffd87affffdc7affffe07affffe47affffe87affffec7afffff07afffff67afffffc7affff227bffff267bffff2a7bffff327bffff367bffff3a7bffff3e7bffff427bffff467bffff4a7bffff4e7bffff567bffff5a7bffff5e7bffff627bffff6a7bffff6e7bffff727bffff7a7bffff7e7bffff827bffff867bffff8a7bffff8e7bffff927bffff967bffff9a7bffff9e7bffffa27bffffaa7bffffae7bffffb27bffffb67bffffba7bffffbe7bffffc67bffffca7bffffce7bffffd27bffffd67bffffda7bffffde7bffffe27bfffffa7bffff007cffff387cffff3c7cffff407cffff447cffff4c7cffff507cffff547cffff587cffff5c7cffff607cffff647cffff687cffff6c7cffff747cffff787cffff7c7cffff807cffff847cffff8c7cffff907cffff947cffff987cffffa07cffffa47cffffa87cffffac7cffffb07cffffb47cffffb87cffffbc7cffffc07cffffc47cffffc87cffffcc7cffffd47cffffd87cffffdc7cffffe07cffffe47cffffe87cffffec7cfffff47cfffff87cfffffc7cffff007dffff047dffff087dffff0c7dffff107dffff147dffff1a7dffff207dffff467dffff4a7dffff4e7dffff567dffff5a7dffff5e7dffff627dffff667dffff6a7dffff6e7dffff727dffff7a7dffff7e7dffff827dffff867dffff8e7dffff927dffff967dffff9e7dffffa27dffffa67dffffaa7dffffae7dffffb27dffffb67dffffba7dffffbe7dffffc27dffffc67dffffce7dffffd27dffffd67dffffda7dffffde7dffffe27dffffea7dffffee7dfffff27dfffff67dfffffa7dfffffe7dffff027effff067effff1e7effff247effff4a7effff4e7effff527effff5a7effff5e7effff627effff667effff6a7effff6e7effff727effff767effff7e7effff827effff867effff8a7effff927effff967effff9a7effffa27effffa67effffaa7effffae7effffb27effffb67effffba7effffbe7effffc27effffc67effffca7effffd27effffd67effffda7effffde7effffe27effffe67effffee7efffff27efffff67efffffa7efffffe7effff027fffff067fffff0a7fffff227fffff287fffff4e7fffff527fffff567fffff5e7fffff627fffff667fffff6a7fffff6e7fffff727fffff767fffff7a7fffff827fffff867fffff8a7fffff8e7fffff967fffff9a7fffff9e7fffffa67fffffaa7fffffae7fffffb27fffffb67fffffba7fffffbe7fffffc27fffffc67fffffca7fffffce7fffffd67fffffda7fffffde7fffffe27fffffe67fffffea7ffffff27ffffff67ffffffa7ffffffe7fffff0280ffff0680ffff0a80ffff0e80ffff2680ffff2c80ffff6480ffff6880ffff6c80ffff7080ffff7880ffff7c80ffff8080ffff8480ffff8880ffff8c80ffff9080ffff9480ffff9880ffffa080ffffa480ffffa880ffffac80ffffb080ffffb880ffffbc80ffffc080ffffc480ffffcc80ffffd080ffffd480ffffd880ffffdc80ffffe080ffffe480ffffe880ffffec80fffff080fffff480fffff880ffff0081ffff0481ffff0881ffff0c81ffff1081ffff1481ffff1881ffff2081ffff2481ffff2881ffff2c81ffff3081ffff3481ffff3881ffff3c81ffff4081ffff4681ffff4c81ffff7281ffff7681ffff7a81ffff8281ffff8681ffff8a81ffff8e81ffff9281ffff9681ffff9a81ffff9e81ffffa681ffffaa81ffffae81ffffb281ffffba81ffffbe81ffffc281ffffca81ffffce81ffffd281ffffd681ffffda81ffffde81ffffe281ffffe681ffffea81ffffee81fffff281fffffa81fffffe81ffff0282ffff0682ffff0a82ffff0e82ffff1682ffff1a82ffff1e82ffff2282ffff2682ffff2a82ffff2e82ffff3282ffff4a82ffff5082ffff8882ffff8c82ffff9082ffff9482ffff9c82ffffa082ffffa482ffffa882ffffac82ffffb082ffffb482ffffb882ffffbc82ffffc482ffffc882ffffcc82ffffd082ffffd482ffffdc82ffffe082ffffe482ffffe882fffff082fffff482fffff882fffffc82ffff0083ffff0483ffff0883ffff0c83ffff1083ffff1483ffff1883ffff1c83ffff2483ffff2883ffff2c83ffff3083ffff3483ffff3883ffff3c83ffff4483ffff4883ffff4c83ffff5083ffff5483ffff5883ffff5c83ffff6083ffff6483ffff6a83ffff7083ffffa883ffffac83ffffb083ffffb483ffffbc83ffffc083ffffc483ffffc883ffffcc83ffffd083ffffd483ffffd883ffffdc83ffffe483ffffe883ffffec83fffff083fffff483fffffc83ffff0084ffff0484ffff0884ffff1084ffff1484ffff1884ffff1c84ffff2084ffff2484ffff2884ffff2c84ffff3084ffff3484ffff3884ffff3c84ffff4484ffff4884ffff4c84ffff5084ffff5484ffff5884ffff5c84ffff6484ffff6884ffff6c84ffff7084ffff7484ffff7884ffff7c84ffff8084ffff8484ffff8a84ffff9084ffffc884ffffcc84ffffd084ffffd484ffffdc84ffffe084ffffe484ffffe884ffffec84fffff084fffff484fffff884fffffc84ffff0485ffff0885ffff0c85ffff1085ffff1485ffff1c85ffff2085ffff2485ffff2885ffff3085ffff3485ffff3885ffff3c85ffff4085ffff4485ffff4885ffff4c85ffff5085ffff5485ffff5885ffff5c85ffff6485ffff6885ffff6c85ffff7085ffff7485ffff7885ffff7c85ffff8485ffff8885ffff8c85ffff9085ffff9485ffff9885ffff9c85ffffa085ffffa485ffffaa85ffffb085ffffd685ffffda85ffffde85ffffe685ffffea85ffffee85fffff285fffff685fffffa85fffffe85ffff0286ffff0a86ffff0e86ffff1286ffff1686ffff1e86ffff2286ffff2686ffff2e86ffff3286ffff3686ffff3a86ffff3e86ffff4286ffff4686ffff4a86ffff4e86ffff5286ffff5686ffff5e86ffff6286ffff6686ffff6a86ffff6e86ffff7286ffff7a86ffff7e86ffff8286ffff8686ffff8a86ffff8e86ffff9286ffff9686ffffae86ffffb486ffffda86ffffde86ffffe286ffffea86ffffee86fffff286fffff686fffffa86fffffe86ffff0287ffff0687ffff0e87ffff1287ffff1687ffff1a87ffff2287ffff2687ffff2a87ffff3287ffff3687ffff3a87ffff3e87ffff4287ffff4687ffff4a87ffff4e87ffff5287ffff5687ffff5a87ffff6287ffff6687ffff6a87ffff6e87ffff7287ffff7687ffff7e87ffff8287ffff8687ffff8a87ffff8e87ffff9287ffff9687ffff9a87ffffb287ffffb887ffffde87ffffe287ffffe687ffffee87fffff287fffff687fffffa87fffffe87ffff0288ffff0688ffff0a88ffff1288ffff1688ffff1a88ffff1e88ffff2688ffff2a88ffff2e88ffff3688ffff3a88ffff3e88ffff4288ffff4688ffff4a88ffff4e88ffff5288ffff5688ffff5a88ffff5e88ffff6688ffff6a88ffff6e88ffff7288ffff7688ffff7a88ffff8288ffff8688ffff8a88ffff8e88ffff9288ffff9688ffff9a88ffff9e88ffffb688ffffbc88fffff488fffff888fffffc88ffff0089ffff0889ffff0c89ffff1089ffff1489ffff1889ffff1c89ffff2089ffff2489ffff2889ffff3089ffff3489ffff3889ffff3c89ffff4089ffff4889ffff4c89ffff5089ffff5489ffff5c89ffff6089ffff6489ffff6889ffff6c89ffff7089ffff7489ffff7889ffff7c89ffff8089ffff8489ffff8889ffff9089ffff9489ffff9889ffff9c89ffffa089ffffa489ffffa889ffffb089ffffb489ffffb889ffffbc89ffffc089ffffc489ffffc889ffffcc89ffffd089ffffd689ffffdc89ffff028affff068affff0a8affff128affff168affff1a8affff1e8affff228affff268affff2a8affff2e8affff368affff3a8affff3e8affff428affff4a8affff4e8affff528affff5a8affff5e8affff628affff668affff6a8affff6e8affff728affff768affff7a8affff7e8affff828affff8a8affff8e8affff928affff968affff9a8affff9e8affffa68affffaa8affffae8affffb28affffb68affffba8affffbe8affffc28affffda8affffe08affff068bffff0a8bffff0e8bffff168bffff1a8bffff1e8bffff228bffff268bffff2a8bffff2e8bffff328bffff3a8bffff3e8bffff428bffff468bffff4e8bffff528bffff568bffff5e8bffff628bffff668bffff6a8bffff6e8bffff728bffff768bffff7a8bffff7e8bffff828bffff868bffff8e8bffff928bffff968bffff9a8bffff9e8bffffa28bffffaa8bffffae8bffffb28bffffb68bffffba8bffffbe8bffffc28bffffc68bffffde8bffffe48bffffe68bffff088cffff188cffff288cffff388cffff428cffffa28cffffc68cffffe28cffff488dffff908dffffa68dffffc48dfffff48dffff048effff148effff248effff2e8effff3e8effff4e8effff5e8effff688effff868effff888effffa48effffba8effffc88effff088fffff7c8fffffa08fffffbc8fffff2290ffff6a90ffff8090ffff9e90ffffce90ffffde90ffffee90fffffe90ffff0891ffff1891ffff2891ffff3891ffff4291ffff6091ffff6291ffff7e91ffff8291ffff8891ffffa491ffffa891ffffae91fffffe91ffff0292ffff0692ffff0a92ffff1292ffff1692ffff1a92ffff1e92ffff2292ffff2692ffff2a92ffff2e92ffff3292ffff3a92ffff3e92ffff4292ffff4692ffff4a92ffff5292ffff5692ffff5a92ffff5e92ffff6692ffff6a92ffff6e92ffff7292ffff7692ffff7a92ffff7e92ffff8292ffff8692ffff8a92ffff8e92ffff9292ffff9a92ffff9e92ffffa292ffffa692ffffaa92ffffae92ffffb292ffffba92ffffbe92ffffc292ffffc692ffffca92ffffce92ffffd292ffffd692ffffda92ffffe092ffffe692ffff2893ffff2c93ffff3093ffff3493ffff3c93ffff4093ffff4493ffff4893ffff4c93ffff5093ffff5493ffff5893ffff5c93ffff6493ffff6893ffff6c93ffff7093ffff7493ffff7c93ffff8093ffff8493ffff8893ffff9093ffff9493ffff9893ffff9c93ffffa093ffffa493ffffa893ffffac93ffffb093ffffb493ffffb893ffffbc93ffffc493ffffc893ffffcc93ffffd093ffffd493ffffd893ffffdc93ffffe493ffffe893ffffec93fffff093fffff493fffff893fffffc93ffff0094ffff0494ffff0a94ffff1094ffff4094ffff4494ffff4894ffff5094ffff5494ffff5894ffff5c94ffff6094ffff6494ffff6894ffff6c94ffff7494ffff7894ffff7c94ffff8094ffff8894ffff8c94ffff9094ffff9894ffff9c94ffffa094ffffa494ffffa894ffffac94ffffb094ffffb494ffffb894ffffbc94ffffc094ffffc894ffffcc94ffffd094ffffd494ffffd894ffffdc94ffffe494ffffe894ffffec94fffff094fffff494fffff894fffffc94ffff0095ffff1895ffff1e95ffff4e95ffff5295ffff5695ffff5e95ffff6295ffff6695ffff6a95ffff6e95ffff7295ffff7695ffff7a95ffff8295ffff8695ffff8a95ffff8e95ffff9695ffff9a95ffff9e95ffffa695ffffaa95ffffae95ffffb295ffffb695ffffba95ffffbe95ffffc295ffffc695ffffca95ffffce95ffffd695ffffda95ffffde95ffffe295ffffe695ffffea95fffff295fffff695fffffa95fffffe95ffff0296ffff0696ffff0a96ffff0e96ffff2696ffff2c96ffff5c96ffff6096ffff6496ffff6c96ffff7096ffff7496ffff7896ffff7c96ffff8096ffff8496ffff8896ffff9096ffff9496ffff9896ffff9c96ffffa496ffffa896ffffac96ffffb496ffffb896ffffbc96ffffc096ffffc496ffffc896ffffcc96ffffd096ffffd496ffffd896ffffdc96ffffe496ffffe896ffffec96fffff096fffff496fffff896ffff0097ffff0497ffff0897ffff0c97ffff1097ffff1497ffff1897ffff1c97ffff3497ffff3a97ffff7c97ffff8097ffff8497ffff8897ffff9097ffff9497ffff9897ffff9c97ffffa097ffffa497ffffa897ffffac97ffffb097ffffb897ffffbc97ffffc097ffffc497ffffc897ffffd097ffffd497ffffd897ffffdc97ffffe497ffffe897ffffec97fffff097fffff497fffff897fffffc97ffff0098ffff0498ffff0898ffff0c98ffff1098ffff1898ffff1c98ffff2098ffff2498ffff2898ffff2c98ffff3098ffff3898ffff3c98ffff4098ffff4498ffff4898ffff4c98ffff5098ffff5498ffff5898ffff5e98ffff6498ffff9498ffff9898ffff9c98ffffa498ffffa898ffffac98ffffb098ffffb498ffffb898ffffbc98ffffc098ffffc898ffffcc98ffffd098ffffd498ffffdc98ffffe098ffffe498ffffec98fffff098fffff498fffff898fffffc98ffff0099ffff0499ffff0899ffff0c99ffff1099ffff1499ffff1c99ffff2099ffff2499ffff2899ffff2c99ffff3099ffff3899ffff3c99ffff4099ffff4499ffff4899ffff4c99ffff5099ffff5499ffff6c99ffff7299ffffa299ffffa699ffffaa99ffffb299ffffb699ffffba99ffffbe99ffffc299ffffc699ffffca99ffffce99ffffd699ffffda99ffffde99ffffe299ffffea99ffffee99fffff299fffffa99fffffe99ffff029affff069affff0a9affff0e9affff129affff169affff1a9affff1e9affff229affff2a9affff2e9affff329affff369affff3a9affff3e9affff469affff4a9affff4e9affff529affff569affff5a9affff5e9affff629affff7a9affff809affffc29affffc69affffca9affffce9affffd69affffda9affffde9affffe29affffe69affffea9affffee9afffff29afffff69afffffe9affff029bffff069bffff0a9bffff0e9bffff169bffff1a9bffff1e9bffff229bffff2a9bffff2e9bffff329bffff369bffff3a9bffff3e9bffff429bffff469bffff4a9bffff4e9bffff529bffff569bffff5e9bffff629bffff669bffff6a9bffff6e9bffff729bffff769bffff7e9bffff829bffff869bffff8a9bffff8e9bffff929bffff969bffff9a9bffff9e9bffffa29bffffa89bffffea9bffffee9bfffff29bfffff69bfffffe9bffff029cffff069cffff0a9cffff0e9cffff129cffff169cffff1a9cffff1e9cffff269cffff2a9cffff2e9cffff329cffff369cffff3e9cffff429cffff469cffff4a9cffff529cffff569cffff5a9cffff5e9cffff629cffff669cffff6a9cffff6e9cffff729cffff769cffff7a9cffff7e9cffff869cffff8a9cffff8e9cffff929cffff969cffff9a9cffff9e9cffffa69cffffaa9cffffae9cffffb29cffffb69cffffba9cffffbe9cffffc29cffffc69cffffcc9cffffd29cffff149dffff189dffff1c9dffff209dffff289dffff2c9dffff309dffff349dffff389dffff3c9dffff409dffff449dffff489dffff509dffff549dffff589dffff5c9dffff609dffff689dffff6c9dffff709dffff749dffff7c9dffff809dffff849dffff889dffff8c9dffff909dffff949dffff989dffff9c9dffffa09dffffa49dffffa89dffffb09dffffb49dffffb89dffffbc9dffffc09dffffc49dffffc89dffffd09dffffd49dffffd89dffffdc9dffffe09dffffe49dffffe89dffffec9dfffff09dfffff69dfffffc9dffff2c9effff309effff349effff3c9effff409effff449effff489effff4c9effff509effff549effff589effff609effff649effff689effff6c9effff749effff789effff7c9effff849effff889effff8c9effff909effff949effff989effff9c9effffa09effffa49effffa89effffac9effffb49effffb89effffbc9effffc09effffc49effffc89effffd09effffd49effffd89effffdc9effffe09effffe49effffe89effffec9effff049fffff0a9fffff3a9fffff3e9fffff429fffff4a9fffff4e9fffff529fffff569fffff5a9fffff5e9fffff629fffff669fffff6e9fffff729fffff769fffff7a9fffff829fffff869fffff8a9fffff929fffff969fffff9a9fffff9e9fffffa29fffffa69fffffaa9fffffae9fffffb29fffffb69fffffba9fffffc29fffffc69fffffca9fffffce9fffffd29fffffd69fffffde9fffffe29fffffe69fffffea9fffffee9ffffff29ffffff69ffffffa9fffff12a0ffff18a0ffff48a0ffff4ca0ffff50a0ffff58a0ffff5ca0ffff60a0ffff64a0ffff68a0ffff6ca0ffff70a0ffff74a0ffff7ca0ffff80a0ffff84a0ffff88a0ffff90a0ffff94a0ffff98a0ffffa0a0ffffa4a0ffffa8a0ffffaca0ffffb0a0ffffb4a0ffffb8a0ffffbca0ffffc0a0ffffc4a0ffffc8a0ffffd0a0ffffd4a0ffffd8a0ffffdca0ffffe0a0ffffe4a0ffffeca0fffff0a0fffff4a0fffff8a0fffffca0ffff00a1ffff04a1ffff08a1ffff20a1ffff26a1ffff68a1ffff6ca1ffff70a1ffff74a1ffff7ca1ffff80a1ffff84a1ffff88a1ffff8ca1ffff90a1ffff94a1ffff98a1ffff9ca1ffffa4a1ffffa8a1ffffaca1ffffb0a1ffffb4a1ffffbca1ffffc0a1ffffc4a1ffffc8a1ffffd0a1ffffd4a1ffffd8a1ffffdca1ffffe0a1ffffe4a1ffffe8a1ffffeca1fffff0a1fffff4a1fffff8a1fffffca1ffff04a2ffff08a2ffff0ca2ffff10a2ffff14a2ffff18a2ffff1ca2ffff24a2ffff28a2ffff2ca2ffff30a2ffff34a2ffff38a2ffff3ca2ffff40a2ffff44a2ffff4aa2ffff50a2ffff80a2ffff84a2ffff88a2ffff90a2ffff94a2ffff98a2ffff9ca2ffffa0a2ffffa4a2ffffa8a2ffffaca2ffffb4a2ffffb8a2ffffbca2ffffc0a2ffffc8a2ffffcca2ffffd0a2ffffd8a2ffffdca2ffffe0a2ffffe4a2ffffe8a2ffffeca2fffff0a2fffff4a2fffff8a2fffffca2ffff00a3ffff08a3ffff0ca3ffff10a3ffff14a3ffff18a3ffff1ca3ffff24a3ffff28a3ffff2ca3ffff30a3ffff34a3ffff38a3ffff3ca3ffff40a3ffff58a3ffff5ea3ffff8ea3ffff92a3ffff96a3ffff9ea3ffffa2a3ffffa6a3ffffaaa3ffffaea3ffffb2a3ffffb6a3ffffbaa3ffffc2a3ffffc6a3ffffcaa3ffffcea3ffffd6a3ffffdaa3ffffdea3ffffe6a3ffffeaa3ffffeea3fffff2a3fffff6a3fffffaa3fffffea3ffff02a4ffff06a4ffff0aa4ffff0ea4ffff16a4ffff1aa4ffff1ea4ffff22a4ffff26a4ffff2aa4ffff32a4ffff36a4ffff3aa4ffff3ea4ffff42a4ffff46a4ffff4aa4ffff4ea4ffff66a4ffff6ca4ffff6ea4ffff90a4ffffc0a4ffffc4a4ffffc8a4ffffd0a4ffffd4a4ffffd8a4ffffdca4ffffe0a4ffffe4a4ffffe8a4ffffeca4fffff4a4fffff8a4fffffca4ffff00a5ffff08a5ffff0ca5ffff10a5ffff18a5ffff1ca5ffff20a5ffff24a5ffff28a5ffff2ca5ffff30a5ffff34a5ffff38a5ffff3ca5ffff40a5ffff48a5ffff4ca5ffff50a5ffff54a5ffff58a5ffff5ca5ffff64a5ffff68a5ffff6ca5ffff70a5ffff74a5ffff78a5ffff7ca5ffff80a5ffff98a5ffff9ca5ffffbea5ffffc2a5ffffc8a5ffffeaa5ffff06a6ffff0aa6ffff10a6ffff2ca6ffff30a6ffff34a6ffff44a6ffffb8a6ffffdca6fffff8a6ffff5ea7ffffa6a7ffffbca7ffffdaa7ffff0aa8ffff1aa8ffff2aa8ffff3aa8ffff44a8ffff54a8ffff64a8ffff74a8ffff7ea8ffff9ca8ffff9ea8fffff4a8ffff04a9ffff14a9ffff24a9ffff2ea9ffff8ea9ffffb2a9ffffcea9ffff34aaffff7caaffff92aaffffb0aaffffe0aafffff0aaffff00abffff10abffff1aabffff2aabffff3aabffff4aabffff54abffff72abffff74abffff90abffffa6abffffb6abffffc6abffffceabffffeaabffff58acffff6eacffff8cacffffbcacffffccacffffdcacffffecacfffff6acffff14adffff16adffff32adffff50adffffc4adffffe8adffff04aeffff6aaeffffb2aeffffc8aeffffe6aeffff16afffff26afffff36afffff46afffff50afffff60afffff70afffff80afffff8aafffffa8afffffaaafffffbeaffffff6affffffaaffffffeafffff06b0ffff0ab0ffff0eb0ffff12b0ffff16b0ffff1ab0ffff1eb0ffff22b0ffff2ab0ffff2eb0ffff32b0ffff36b0ffff3eb0ffff42b0ffff46b0ffff4eb0ffff52b0ffff56b0ffff5ab0ffff5eb0ffff62b0ffff66b0ffff6ab0ffff6eb0ffff72b0ffff76b0ffff7eb0ffff82b0ffff86b0ffff8ab0ffff8eb0ffff92b0ffff9ab0ffff9eb0ffffa2b0ffffa6b0ffffaab0ffffaeb0ffffb2b0ffffb6b0ffffceb0ffffd2b0ffff16b1ffff26b1ffffa2b1ffffc6b1ffffe2b1ffff48b2ffff90b2ffffa6b2ffffc4b2fffff4b2ffff04b3ffff14b3ffff24b3ffff2eb3ffff3eb3ffff4eb3ffff5eb3ffff68b3ffff86b3ffff88b3ffffa8b3ffffe4b3ffff52b4ffff68b4ffff86b4ffffb6b4ffffc6b4ffffd6b4ffffe6b4fffff0b4ffff0eb5ffff10b5ffff46b5ffff6ab5ffffcab5ffffeeb5ffff0ab6ffff70b6ffffb8b6ffffceb6ffffecb6ffff1cb7ffff2cb7ffff3cb7ffff4cb7ffff56b7ffff66b7ffff76b7ffff86b7ffff90b7ffffaeb7ffffb0b7fffff0b7ffff00b8ffff10b8ffff20b8ffff2ab8ffff8ab8ffffaeb8ffffcab8ffff30b9ffff78b9ffff8eb9ffffacb9ffffdcb9ffffecb9fffffcb9ffff0cbaffff16baffff26baffff36baffff46baffff50baffff6ebaffff70baffffa0baffffa4baffffa8baffffb0baffffb4baffffb8baffffbcbaffffc0baffffc4baffffc8baffffccbaffffd4baffffd8baffffdcbaffffe0baffffe8baffffecbafffff0bafffff8bafffffcbaffff00bbffff04bbffff08bbffff0cbbffff10bbffff14bbffff18bbffff1cbbffff20bbffff28bbffff2cbbffff30bbffff34bbffff38bbffff3cbbffff44bbffff48bbffff4cbbffff50bbffff54bbffff58bbffff5cbbffff60bbffff78bbffff7cbbffff9ebbffffa2bbffffa8bbffffb8bbffff18bcffff3cbcffff58bcffffbebcffff06bdffff1cbdffff3abdffff6abdffff7abdffff8abdffff9abdffffa4bdffffb4bdffffc4bdffffd4bdffffdebdfffffcbdfffffebdffff1abeffff1ebeffff24beffff34beffffa2beffffb8beffffd6beffff06bfffff16bfffff26bfffff36bfffff40bfffff5ebfffff60bfffff76bfffff86bfffff96bfffffa6bfffffb6bfffffc0bfffff20c0ffff44c0ffff60c0ffffc6c0ffff0ec1ffff24c1ffff42c1ffff72c1ffff82c1ffff92c1ffffa2c1ffffacc1ffffbcc1ffffccc1ffffdcc1ffffe6c1ffff04c2ffff06c2ffff42c2ffff50c2ffff84c2ffffe4c2ffff08c3ffff24c3ffff8ac3ffffd2c3ffffe8c3ffff06c4ffff36c4ffff46c4ffff56c4ffff66c4ffff70c4ffff80c4ffff90c4ffffa0c4ffffaac4ffffc8c4ffffcac4ffffdac4ffff48c5ffff5ec5ffff7cc5ffffacc5ffffbcc5ffffccc5ffffdcc5ffffe6c5ffff04c6ffff06c6ffff46c6ffff56c6ffff66c6ffff6ec6ffffd0c6ffffd4c6ffffdac6ffffe8c6ffff04c7ffff08c7ffff0ec7ffff50c7ffff54c7ffff58c7ffff5cc7ffff64c7ffff68c7ffff6cc7ffff70c7ffff74c7ffff78c7ffff7cc7ffff80c7ffff84c7ffff8cc7ffff90c7ffff94c7ffff98c7ffff9cc7ffffa4c7ffffa8c7ffffacc7ffffb0c7ffffb8c7ffffbcc7ffffc0c7ffffc4c7ffffc8c7ffffccc7ffffd0c7ffffd4c7ffffd8c7ffffdcc7ffffe0c7ffffe4c7ffffecc7fffff0c7fffff4c7fffff8c7fffffcc7ffff00c8ffff04c8ffff0cc8ffff10c8ffff14c8ffff18c8ffff1cc8ffff20c8ffff24c8ffff28c8ffff2cc8ffff32c8ffff36c8ffff52c8ffff6ec8ffff72c8ffff78c8ffffa0c8ffff00c9ffff24c9ffff40c9ffffa6c9ffffeec9ffff04caffff22caffff52caffff62caffff72caffff82caffff8ccaffff9ccaffffaccaffffbccaffffc6caffffe4caffffe6caffff40cbffff64cbffff80cbffffe4cbfffff4cbffff70ccffff94ccffffb0ccffff16cdffff5ecdffff74cdffff92cdffffc2cdffffd2cdffffe2cdfffff2cdfffffccdffff0cceffff1cceffff2cceffff36ceffff54ceffff56ceffff6cceffffcccefffff0ceffff0ccfffff72cfffffbacfffffd0cfffffeecfffff1ed0ffff2ed0ffff3ed0ffff4ed0ffff58d0ffff68d0ffff78d0ffff88d0ffff92d0ffffb0d0ffffb2d0ffffc8d0ffff44d1ffff68d1ffff84d1ffffead1ffff32d2ffff48d2ffff66d2ffff96d2ffffa6d2ffffb6d2ffffc6d2ffffd0d2ffffe0d2fffff0d2ffff00d3ffff0ad3ffff28d3ffff2ad3ffff4cd3ffff82d3ffff86d3ffff8ad3ffff92d3ffff96d3ffff9ad3ffff9ed3ffffa2d3ffffa6d3ffffaad3ffffaed3ffffb6d3ffffbad3ffffbed3ffffc2d3ffffcad3ffffced3ffffd2d3ffffdad3ffffded3ffffe2d3ffffe6d3ffffead3ffffeed3fffff2d3fffff6d3fffffad3fffffed3ffff02d4ffff0ad4ffff0ed4ffff12d4ffff16d4ffff1ad4ffff1ed4ffff26d4ffff2ad4ffff2ed4ffff32d4ffff36d4ffff3ad4ffff3ed4ffff42d4ffff5ad4ffff5ed4ffff6ed4ffffead4ffff0ed5ffff2ad5ffff90d5ffffd8d5ffffeed5ffff0cd6ffff3cd6ffff4cd6ffff5cd6ffff6cd6ffff76d6ffff86d6ffff96d6ffffa6d6ffffb0d6ffffced6ffffd0d6ffff0ad7ffff1ad7ffff96d7ffffbad7ffffd6d7ffff3cd8ffff84d8ffff9ad8ffffb8d8ffffe8d8fffff8d8ffff08d9ffff18d9ffff22d9ffff32d9ffff42d9ffff52d9ffff5cd9ffff7ad9ffff7cd9ffffd4d9ffffd8d9ffffdcd9ffffe0d9ffffe8d9ffffecd9fffff0d9fffff4d9fffff8d9fffffcd9ffff00daffff04daffff08daffff10daffff14daffff18daffff1cdaffff20daffff28daffff2cdaffff30daffff34daffff3cdaffff40daffff44daffff48daffff4cdaffff50daffff54daffff58daffff5cdaffff60daffff64daffff68daffff70daffff74daffff78daffff7cdaffff80daffff84daffff88daffff90daffff94daffff98daffff9cdaffffa0daffffa4daffffa8daffffacdaffffb0daffffb6daffffbadaffffe4daffff52dbffff68dbffff86dbffffb6dbffffc6dbffffd6dbffffe6dbfffff0dbffff0edcffff10dcffff26dcffff36dcffff46dcffff56dcffff60dcffffc0dcffffe4dcffff00ddffff66ddffffaeddffffc4ddffffe2ddffff12deffff22deffff32deffff42deffff4cdeffff5cdeffff6cdeffff7cdeffff86deffffa4deffffa6deffffd2deffffe8deffff06dfffff34dfffff68dfffff6cdfffff72dfffff80dfffffacdfffffe4dfffffe8dfffffeedfffff20e0ffff24e0ffff2ae0ffff4ce0ffff5ce0ffff6ce0ffff7ce0ffff86e0ffffe6e0ffff0ae1ffff26e1ffff8ce1ffffd4e1ffffeae1ffff08e2ffff38e2ffff48e2ffff58e2ffff68e2ffff72e2ffff82e2ffff92e2ffffa2e2fffface2ffffcae2ffffcce2ffffdce2ffff50e3ffff74e3ffff90e3fffff6e3ffff3ee4ffff54e4ffff72e4ffffa2e4ffffb2e4ffffc2e4ffffd2e4ffffdce4ffffece4fffffce4ffff0ce5ffff16e5ffff34e5ffff36e5ffff5ae5ffff5ee5ffff64e5ffff8ee5ffff9ee5ffffaee5ffffbee5ffffc8e5ffff28e6ffff4ce6ffff68e6ffffcee6ffff16e7ffff2ce7ffff4ae7ffff7ae7ffff8ae7ffff9ae7ffffaae7ffffb4e7ffffc4e7ffffd4e7ffffe4e7ffffeee7ffff0ce8ffff0ee8ffff1ee8ffff9ae8ffffbee8ffffdae8ffff40e9ffff88e9ffff9ee9ffffbce9ffffece9fffffce9ffff0ceaffff1ceaffff26eaffff36eaffff46eaffff56eaffff60eaffff7eeaffff80eaffffb0eaffffb4eaffffb8eaffffc0eaffffc4eaffffc8eaffffcceaffffd0eaffffd4eaffffd8eaffffdceaffffe4eaffffe8eaffffeceafffff0eafffff8eafffffceaffff00ebffff08ebffff0cebffff10ebffff14ebffff18ebffff1cebffff20ebffff24ebffff28ebffff2cebffff30ebffff38ebffff3cebffff40ebffff44ebffff48ebffff4cebffff54ebffff58ebffff5cebffff60ebffff64ebffff68ebffff6cebffff70ebffff88ebffff8cebffffb6ebffffbaebffffc0ebffffe4ebffffe8ebffffeeebffff34ecffff44ecffff54ecffff64ecffff6eecffffceecfffff2ecffff0eedffff74edffffbcedffffd2edfffff0edffff20eeffff30eeffff40eeffff50eeffff5aeeffff6aeeffff7aeeffff8aeeffff94eeffffb2eeffffb4eeffffc2eeffffd8eefffff8eeffff1cefffff3eefffff42efffff48efffff9cefffffa0efffffa4efffffacefffffb0efffffb4efffffb8efffffbcefffffc0efffffc4efffffc8efffffd0efffffd4efffffd8efffffdcefffffe4efffffe8efffffeceffffff4effffff8effffffcefffff00f0ffff04f0ffff08f0ffff0cf0ffff10f0ffff14f0ffff18f0ffff1cf0ffff24f0ffff28f0ffff2cf0ffff30f0ffff34f0ffff38f0ffff40f0ffff44f0ffff48f0ffff4cf0ffff50f0ffff54f0ffff58f0ffff5cf0ffff74f0ffff78f0ffff8ef0ffffeef0ffff12f1ffff2ef1ffff94f1ffffdcf1fffff2f1ffff10f2ffff40f2ffff50f2ffff60f2ffff70f2ffff7af2ffff8af2ffff9af2ffffaaf2ffffb4f2ffffd2f2ffffd4f2fffff8f2fffffcf2ffff02f3ffff1af3ffff8ef3ffffb2f3ffffcef3ffff34f4ffff7cf4ffff92f4ffffb0f4ffffe0f4fffff0f4ffff00f5ffff10f5ffff1af5ffff2af5ffff3af5ffff4af5ffff54f5ffff72f5ffff74f5ffff94f5ffffc4f5ffffc8f5ffffcef5ffffdcf5ffffecf5ffff60f6ffff84f6ffffa0f6ffff06f7ffff4ef7ffff64f7ffff82f7ffffb2f7ffffc2f7ffffd2f7ffffe2f7ffffecf7fffffcf7ffff0cf8ffff1cf8ffff26f8ffff44f8ffff46f8ffff62f8ffff66f8ffff6cf8ffff82f8fffff6f8ffff1af9ffff36f9ffff9cf9ffffe4f9fffffaf9ffff18faffff48faffff58faffff64faffff74faffff7efaffff8efaffff9efaffffaefaffffb8faffffd6faffffd8faffffeafafffff0730000f673000044740000627400007c75000080750000c6750000e4750000f4750000fc7500001c760000487600004c76000060760000f076000004770000267700002a77000034770000387700006c77000074770000a6770000aa770000b2770000c47700000678000032780000367800006c78000074780000e0780000f8780000187900001c790000967900009a790000a0790000c2790000c67900002e7a00003c7a00006c7a0000727a0000767a0000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: a66c0c00
+      m_LastClickedID: 814246
+      m_ExpandedIDs: 3ec9f7ff465af8ff38def8ff3cdef8ff42def8ffb811f9ff52a0f9ffea31faffd832faff0834faff7437faff0ec1faff7eccfaff84ccfaff70d6faff72d6faff74d6faff26d7faffbadcfaffbedcfaffb2ddfaff82defaff4edffaffb06bfbfff86cfbff0671fbffd271fbff2680fbff2a80fbff1e81fbff7c87fbff8087fbff4c88fbffbe89fbffc48bfbffd28cfbfffa98fbffb499fbffbe26fcff1e2dfcff4c33fcff4e33fcff4434fcff8a35fcff5a36fcff0a3bfcff783cfcffe055fcffde57fcff8c5cfcffb85dfcff20fbffff9a73000006740000c0750000b6760000dc760000187700004e77000068770000d6770000da77000018780000847800009c780000c0780000667900006a790000107a00001a7a000080c309008ac30900c4c50900fec7090058cf090062cf0900088d0a006c8d0a003c930a0060930a00e09e0a00469f0a00d8a00a00f8a00a00fca00a002e690c00de6b0c00026c0c00
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -472,7 +379,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 7}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -480,7 +387,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 812ba9a3a3792034a865fec710800516
---- !u!114 &16
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -519,24 +426,24 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SkipHidden: 0
-    m_SearchArea: 1
+    m_SearchArea: 3
     m_Folders:
-    - Assets/Animation/Drawer
+    - Assets/Scenes/DayTime
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Animation/Drawer
+  - Assets/Scenes/DayTime
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\workspace\HorrorTrack
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 138}
-    m_SelectedIDs: 2c500700
-    m_LastClickedID: 479276
-    m_ExpandedIDs: 0000000006d2000008d200000ad200000cd200000ed2000010d200005ad2000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 351}
+    m_SelectedIDs: 60d20000
+    m_LastClickedID: 53856
+    m_ExpandedIDs: 0000000012d2000014d2000016d2000018d200001ad200001cd200005cd200008ad20000b8d20000e8600700ea60070094830a0096830a00bc830a00947b0c0000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -564,7 +471,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000006d2000008d200000ad200000cd200000ed2000010d2000000ca9a3bffffff7f
+    m_ExpandedIDs: 0000000012d2000014d2000016d2000018d200001ad200001cd2000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -591,22 +498,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 00000000f03100000cb70e0066f60100e08b02001ea40000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: MainScene
+      m_OriginalName: MainScene
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 53444
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 8}
     m_CreateAssetUtility:
@@ -620,7 +527,7 @@ MonoBehaviour:
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 130
---- !u!114 &17
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -643,7 +550,7 @@ MonoBehaviour:
     x: 535
     y: 73
     width: 1005
-    height: 473
+    height: 425
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -697,7 +604,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 25}
+      snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -836,7 +743,7 @@ MonoBehaviour:
       index: 10
       layout: 4
   m_WindowGUID: d4b2525c7ecce3047b73046155e246c9
-  m_Gizmos: 1
+  m_Gizmos: 0
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -845,9 +752,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 21.545868, y: 3.924214, z: 5.5902305}
+    m_Target: {x: 53.628586, y: -3.904242, z: 0.8926866}
     speed: 2
-    m_Value: {x: 21.545868, y: 3.924214, z: 5.5902305}
+    m_Value: {x: 53.628586, y: -3.904242, z: 0.8926866}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 2
@@ -894,9 +801,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.22361362, y: 0.67594993, z: -0.21768934, w: 0.67148113}
+    m_Target: {x: -0.04304724, y: 0.6949724, z: -0.041746855, w: -0.7165731}
     speed: 2
-    m_Value: {x: 0.22503377, y: 0.6735459, z: -0.21915895, w: 0.6690779}
+    m_Value: {x: -0.043108527, y: 0.6938761, z: -0.041680995, w: -0.7175934}
   m_Size:
     m_Target: 1.428412
     speed: 2
@@ -925,7 +832,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &18
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -948,7 +855,7 @@ MonoBehaviour:
     x: 535
     y: 73
     width: 1005
-    height: 473
+    height: 425
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1040,7 +947,7 @@ MonoBehaviour:
   m_CurrentEditor: 1
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &19
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1060,18 +967,18 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 428
-    y: 428.80002
-    width: 804.4
-    height: 117.399994
+    x: 535
+    y: 519
+    width: 1005
+    height: 326
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 29686
---- !u!114 &20
+  m_LastSelectedObjectID: 814246
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1092,14 +999,14 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 535
-    y: 739
+    y: 866
     width: 1005
-    height: 260
+    height: 133
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &21
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1140,7 +1047,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &22
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1160,9 +1067,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1543
+    x: 1542
     y: 73
-    width: 376
+    width: 377
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:

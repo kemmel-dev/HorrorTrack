@@ -1,13 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.PostProcessing;
+using UnityEngine.Rendering;
 
 public class TimeSwitch : MonoBehaviour
 {
 
     public Transform dayTime, nightTime;
+    public Volume volumePP;
     public Color fogColorDay, fogColorNight;
     public Material skyBoxDay, skyBoxNight;
+
+    public VolumeProfile dayPP, nightPP;
 
     private void Start()
     {
@@ -22,6 +27,8 @@ public class TimeSwitch : MonoBehaviour
 
         RenderSettings.skybox = dayTime.gameObject.activeSelf ? skyBoxDay : skyBoxNight;
         RenderSettings.fogColor = dayTime.gameObject.activeSelf ? fogColorDay : fogColorNight;
+
+        volumePP.profile = dayTime.gameObject.activeSelf ? dayPP : nightPP;
     }
 
     public void SwitchTimeFor(float time)
